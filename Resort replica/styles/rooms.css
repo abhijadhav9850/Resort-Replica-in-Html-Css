@@ -1,0 +1,35 @@
+.header{
+    background-color: black;
+    display: flex;
+    padding: 1rem 5%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.head a{
+    color: white;
+    margin: 10px;
+}
+.rooms-container{
+    display: flex;
+    margin-top: 10px;
+}
+.rooms-type {
+    position: relative;
+    margin-right: 1rem;
+    width: 30%;
+    height: 40vh;
+    background-size: cover;
+}
+.rooms-type:last-child {
+    margin-right: 0;
+}
+.rooms-type p {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    z-index: 99;
+    bottom: 1rem;
+    left: 8px;
+}
+.rooms-type:nth-child(1) { background-image: url('/Assets/Superior_Studio.jpg'); }
+.rooms-type:nth-child(2) { background-image: url('/Assets/1br-3.jpg'); }
